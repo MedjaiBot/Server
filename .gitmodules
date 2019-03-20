@@ -1,0 +1,4 @@
+[submodule "Framework"]
+	path = lib/framework
+	url = git@github.com:MedjaiBot/Framework.git
+	branch = develop
