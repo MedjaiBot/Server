@@ -6,14 +6,20 @@
   "author": "Yannick Fricke <yannickfricke@googlemail.com>",
   "license": "MIT",
   "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "lint:fix": "tslint -c tslint.json 'src/**/*.ts' --fix",
+    "lint:watch": "chokidar './src/**/*.ts' -c 'node -e \"console.clear()\" && yarn lint' --initial",
+    "lint:fix:watch": "chokidar './src/**/*.ts' -c 'node -e \"console.clear()\" && yarn lint:fix' --initial",
     "test": "jest",
     "test:watch": "jest --watch"
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "@types/node": "^11.11.4",
+    "chokidar": "^2.1.2",
     "jest": "^24.5.0",
     "ts-jest": "^24.0.0",
+    "tslint": "^5.14.0",
     "typescript": "^3.3.4000"
   }
 }
