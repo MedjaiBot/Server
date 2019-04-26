@@ -6,6 +6,7 @@
   "author": "Yannick Fricke <yannickfricke@googlemail.com>",
   "license": "MIT",
   "scripts": {
+    "commit": "git-cz",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "lint:fix": "tslint -c tslint.json 'src/**/*.ts' --fix",
     "lint:watch": "chokidar './src/**/*.ts' -c 'node -e \"console.clear()\" && yarn lint' --initial",
@@ -17,6 +18,8 @@
     "@types/jest": "^24.0.11",
     "@types/node": "^11.11.4",
     "chokidar": "^2.1.2",
+    "commitizen": "^3.1.1",
+    "cz-conventional-changelog": "^2.1.0",
     "jest": "^24.5.0",
     "ts-jest": "^24.0.0",
     "tslint": "^5.14.0",
@@ -27,5 +30,10 @@
     "inversify": "^5.0.1",
     "reflect-metadata": "^0.1.13",
     "winston": "^3.2.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
