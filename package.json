@@ -32,6 +32,7 @@
     "dotenv": "^7.0.0",
     "inversify": "^5.0.1",
     "reflect-metadata": "^0.1.13",
+    "webpack-cli": "^3.3.1",
     "winston": "^3.2.1"
   },
   "config": {
