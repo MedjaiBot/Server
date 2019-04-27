@@ -1,0 +1,32 @@
+{
+  "projectName": "@MedjaiBot/Server",
+  "projectOwner": "MedjaiBot",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "CONTRIBUTORS.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "YannickFricke",
+      "name": "Yannick Fricke",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/591450?v=4",
+      "profile": "https://github.com/YannickFricke",
+      "contributions": [
+        "code",
+        "ideas",
+        "infra",
+        "maintenance",
+        "platform",
+        "plugin",
+        "projectManagement",
+        "review",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
