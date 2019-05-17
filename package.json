@@ -19,7 +19,7 @@
     "@types/dotenv": "^6.1.1",
     "@types/jest": "^24.0.11",
     "@types/node": "^11.11.4",
-    "all-contributors-cli": "^6.3.1",
+    "all-contributors-cli": "^6.4.0",
     "chokidar": "^3.0.0",
     "commitizen": "^3.1.1",
     "cz-conventional-changelog": "^2.1.0",
