@@ -21,7 +21,7 @@
     "@types/node": "^11.11.4",
     "all-contributors-cli": "^6.8.0",
     "chokidar": "^3.0.2",
-    "commitizen": "^3.1.1",
+    "commitizen": "^3.1.2",
     "cz-conventional-changelog": "^2.1.0",
     "jest": "^24.8.0",
     "ts-jest": "^24.0.2",
