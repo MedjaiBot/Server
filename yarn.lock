@@ -293,9 +293,9 @@
     "@types/yargs" "^12.0.9"
 
 "@medjaibot/framework@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@medjaibot/framework/-/framework-1.0.1.tgz#7e8f2a7c77d47ca8d7d159ee7e34d76765443837"
-  integrity sha512-6VE86aW1cgI+Ia4brbZuGxGALroKkBv7taofR0osf+R8f7rjmBvLrlqeVTRkSXuY027aa+0cqw14zGTk8EyVFw==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@medjaibot/framework/-/framework-1.1.2.tgz#ab1fbdef060a4a0ec3a6b72bf2576014344838e6"
+  integrity sha512-kNeeuQfKXSFP1uJk71voHVMJo749f05tEBO5qrvARVwPX47vEl8QVPhSkaJPJgbd03hoEbjRCTbdit0EuV2hNw==
   dependencies:
     inversify "^5.0.1"
     reflect-metadata "^0.1.13"
