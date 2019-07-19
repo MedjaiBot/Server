@@ -33,6 +33,7 @@
     "typescript": "^3.5.3"
   },
   "dependencies": {
+    "@medjaibot/framework": "^1.0.1",
     "@types/winston": "^2.4.4",
     "dotenv": "^8.0.0",
     "inversify": "^5.0.1",
