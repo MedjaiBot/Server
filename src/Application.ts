@@ -1,10 +1,10 @@
+import { ContainerConstants } from '@medjaibot/framework/constants/ContainerConstants';
+import { EventManager } from '@medjaibot/framework/event/EventManager';
+import { IsNullOrUndefined } from '@medjaibot/framework/Extras';
+import { Logger } from '@medjaibot/framework/logger/Logger';
+import { Plugin } from '@medjaibot/framework/plugin/Plugin';
+import { PluginManager } from '@medjaibot/framework/plugin/PluginManager';
 import { inject, injectable } from 'inversify';
-import { ContainerConstants } from '../lib/framework/src/constants/ContainerConstants';
-import { EventManager } from '../lib/framework/src/event/EventManager';
-import { IsNullOrUndefined } from '../lib/framework/src/Extras';
-import { Logger } from '../lib/framework/src/logger/Logger';
-import { Plugin } from '../lib/framework/src/plugin/Plugin';
-import { PluginManager } from '../lib/framework/src/plugin/PluginManager';
 
 /**
  * The server application which will

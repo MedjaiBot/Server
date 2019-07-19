@@ -1,6 +1,7 @@
 import 'reflect-metadata';
-import { ContainerConstants } from '../lib/framework/src/constants/ContainerConstants';
-import { Logger } from '../lib/framework/src/logger/Logger';
+
+import { ContainerConstants } from '@medjaibot/framework/constants/ContainerConstants';
+import { Logger } from '@medjaibot/framework/logger/Logger';
 import { Application } from './Application';
 import Symbols from './constants/Symbols';
 import applicationContainer from './container/container';

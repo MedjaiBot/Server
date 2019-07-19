@@ -1,9 +1,9 @@
+import { ContainerConstants } from '@medjaibot/framework/constants/ContainerConstants';
+import { EventManager } from '@medjaibot/framework/event/EventManager';
+import { Logger } from '@medjaibot/framework/logger/Logger';
+import { LogLevel } from '@medjaibot/framework/logger/LogLevel';
+import { PluginManager } from '@medjaibot/framework/plugin/PluginManager';
 import { Container } from 'inversify';
-import { ContainerConstants } from '../../lib/framework/src/constants/ContainerConstants';
-import { EventManager } from '../../lib/framework/src/event/EventManager';
-import { Logger } from '../../lib/framework/src/logger/Logger';
-import { LogLevel } from '../../lib/framework/src/logger/LogLevel';
-import { PluginManager } from '../../lib/framework/src/plugin/PluginManager';
 import { Application } from '../Application';
 import Symbols from '../constants/Symbols';
 
