@@ -6,6 +6,8 @@
   "author": "Yannick Fricke <yannickfricke@googlemail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "webpack --config ./configs/webpack/webpack.config.js",
+    "build:watch": "webpack --watch --config ./configs/webpack/webpack.config.js",
     "commit": "git-cz",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "lint:fix": "tslint -c tslint.json 'src/**/*.ts' --fix",
