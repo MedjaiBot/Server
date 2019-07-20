@@ -35,12 +35,10 @@
   },
   "dependencies": {
     "@medjaibot/framework": "^1.0.1",
-    "@types/winston": "^2.4.4",
     "dotenv": "^8.0.0",
     "inversify": "^5.0.1",
     "reflect-metadata": "^0.1.13",
-    "webpack-cli": "^3.3.6",
-    "winston": "^3.2.1"
+    "webpack-cli": "^3.3.6"
   },
   "config": {
     "commitizen": {
