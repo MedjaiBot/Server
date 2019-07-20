@@ -43,13 +43,4 @@ describe('Application', () => {
             application.run();
         }).not.toThrow();
     });
-
-    it('should have called the loadPlugins method on the plugin manager', () => {
-        const loadPluginsSpy = jest.spyOn(pluginManagerMock, 'loadPlugins');
-
-        expect(() => {
-            application.run();
-        }).not.toThrow();
-        // expect(loadPluginsSpy).toHaveBeenCalled();
-    });
 });
