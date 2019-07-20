@@ -1298,6 +1298,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+clean-terminal-webpack-plugin@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/clean-terminal-webpack-plugin/-/clean-terminal-webpack-plugin-2.0.4.tgz#0a41ffb79acbecddd7e61e6084d3ace7cdc573e9"
+  integrity sha512-9KeLElz4/gQG0Jt+YiWYoO+rbNNEp3cjnc7iYm3VplXDHM54DDDPQEha1COaU3dZqnnDe+V7t9qDv4bWyeFTWg==
+
 cli-cursor@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
