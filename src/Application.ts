@@ -130,7 +130,15 @@ export class Application {
             }
 
             this.eventManager.broadcast('System.Server.Application.Run.Tick');
-
         }, 1000);
+    }
+
+    /**
+     * Stops the server
+     *
+     * @memberof Application
+     */
+    public stop() {
+        this.running = false;
     }
 }
