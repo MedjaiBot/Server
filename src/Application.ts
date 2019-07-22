@@ -67,8 +67,10 @@ export class Application {
     constructor(
         @inject(ContainerConstants.LOGGING.LOGGER)
         logger: Logger,
+
         @inject(ContainerConstants.SYSTEMS.PLUGIN.PLUGINMANAGER)
         pluginManager: PluginManager,
+
         @inject(ContainerConstants.SYSTEMS.EVENT.EVENTMANAGER)
         eventManager: EventManager,
     ) {
