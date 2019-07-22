@@ -21,8 +21,12 @@ describe('Application', () => {
 
     beforeEach(() => {
         loggerMock = jest.genMockFromModule<Logger>(loggerPath);
+        loggerMock.info = jest.fn();
+
         eventManager = new EventManager();
+
         pluginManagerMock = jest.genMockFromModule<PluginManager>(pluginManagerPath);
+        pluginManagerMock.plugins = [];
         pluginManagerMock.loadPlugins = async (directory: string) => {
             // Nothing to do!
         };
