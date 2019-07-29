@@ -321,10 +321,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@medjaibot/framework@^1.0.1":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@medjaibot/framework/-/framework-1.1.2.tgz#ab1fbdef060a4a0ec3a6b72bf2576014344838e6"
-  integrity sha512-kNeeuQfKXSFP1uJk71voHVMJo749f05tEBO5qrvARVwPX47vEl8QVPhSkaJPJgbd03hoEbjRCTbdit0EuV2hNw==
+"@medjaibot/framework@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@medjaibot/framework/-/framework-1.3.0.tgz#2889eaf4223fd3af65004f2207cedff2cb57f401"
+  integrity sha512-+uaHeSXE8ZqM8j0kNaRSxH95wtDpeSys9aEnwXXG8Q+hvsNYKjt64V8J1Io6tZtTSDnplFZJr4bdnFPknZrZ1A==
   dependencies:
     inversify "^5.0.1"
     reflect-metadata "^0.1.13"
