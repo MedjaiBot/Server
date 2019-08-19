@@ -38,7 +38,7 @@
     "dotenv": "^8.0.0",
     "inversify": "^5.0.1",
     "reflect-metadata": "^0.1.13",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.7"
   },
   "config": {
     "commitizen": {
