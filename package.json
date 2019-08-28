@@ -23,7 +23,7 @@
     "@types/node": "10",
     "all-contributors-cli": "^6.8.0",
     "chokidar": "^3.0.2",
-    "clean-terminal-webpack-plugin": "^2.0.4",
+    "clean-terminal-webpack-plugin": "^2.0.5",
     "commitizen": "^4.0.1",
     "cz-conventional-changelog": "^3.0.2",
     "imports-loader": "^0.8.0",
