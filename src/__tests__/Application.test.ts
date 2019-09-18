@@ -3,6 +3,7 @@ import 'reflect-metadata';
 import { EventManager } from '@medjaibot/framework/event/EventManager';
 import { Logger } from '@medjaibot/framework/logger/Logger';
 import { PluginManager } from '@medjaibot/framework/plugin/PluginManager';
+import { Container } from 'inversify';
 import { Application } from '../Application';
 
 const pluginManagerPath = '@medjaibot/framework/plugin/PluginManager';
@@ -18,6 +19,7 @@ describe('Application', () => {
     let loggerMock: Logger;
     let pluginManagerMock: PluginManager;
     let eventManager: EventManager;
+    let container: Container;
 
     beforeEach(() => {
         loggerMock = jest.genMockFromModule<Logger>(loggerPath);
@@ -31,10 +33,13 @@ describe('Application', () => {
             // Nothing to do!
         };
 
+        container = jest.genMockFromModule<Container>('inversify');
+
         application = new Application(
             loggerMock,
             pluginManagerMock,
             eventManager,
+            container,
         );
     });
 
