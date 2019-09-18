@@ -7,6 +7,9 @@ import { Container } from 'inversify';
 import { Application } from '../Application';
 import Symbols from '../constants/Symbols';
 
+const applicationContainer = new Container();
+const eventManager = new EventManager();
+
 export const bindApplication = (container: Container) => {
     container.bind(Symbols.APP.APPLICATION).to(Application);
 };
@@ -25,9 +28,6 @@ export const bindPluginManager = (container: Container) => {
 export const bindEventManager = (container: Container) => {
     container.bind(ContainerConstants.SYSTEMS.EVENT.EVENTMANAGER).toConstantValue(eventManager);
 };
-
-const applicationContainer = new Container();
-const eventManager = new EventManager();
 
 bindApplication(applicationContainer);
 bindLogger(applicationContainer);
