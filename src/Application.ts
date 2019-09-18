@@ -127,17 +127,12 @@ export class Application {
         this.pluginManager.loadPlugins('./plugins');
 
         // Dumps the loaded plugins
-        this.logger.dumpObject(`Loaded ${this.pluginManager.plugins.length} plugin(s)`, this.pluginManager.plugins);
+        this.logger.info(
+            `Loaded ${this.pluginManager.plugins.length} plugin${this.pluginManager.plugins.length === 1 ? '' : 's'}`,
+        );
 
-        this.pluginManager.plugins.forEach((plugin: Plugin, index: number) => {
-            if (index > 0 && index < this.pluginManager.plugins.length) {
-                this.logger.info(`==========================================`);
-            }
-
-            this.logger.info(`- ${plugin.name}`);
-            this.logger.info(`  ID: ${plugin.id}`);
-            this.logger.info(`  From: ${plugin.author}`);
-            this.logger.info(`  Version: ${plugin.version}`);
+        this.pluginManager.plugins.forEach((plugin: Plugin) => {
+            this.logger.info(`Loaded plugin ${plugin.name} v${plugin.version}`);
         });
 
         // Starts the server
