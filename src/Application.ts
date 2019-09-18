@@ -4,7 +4,7 @@ import { IsNullOrUndefined } from '@medjaibot/framework/Extras';
 import { Logger } from '@medjaibot/framework/logger/Logger';
 import { Plugin } from '@medjaibot/framework/plugin/Plugin';
 import { PluginManager } from '@medjaibot/framework/plugin/PluginManager';
-import { inject, injectable } from 'inversify';
+import { Container, inject, injectable } from 'inversify';
 
 /**
  * The server application which will
@@ -48,6 +48,15 @@ export class Application {
     protected eventManager: EventManager;
 
     /**
+     * The container which will be used to initialize the plugins
+     *
+     * @protected
+     * @type {Container}
+     * @memberof Application
+     */
+    protected container: Container;
+
+    /**
      * When is set to true the application is currently running
      *
      * @protected
@@ -73,20 +82,31 @@ export class Application {
 
         @inject(ContainerConstants.SYSTEMS.EVENT.EVENTMANAGER)
         eventManager: EventManager,
+
+        @inject(ContainerConstants.DI.CONTAINER)
+        container: Container,
     ) {
         if (IsNullOrUndefined(logger)) {
             throw new Error('The logger is not set');
         }
+
         if (IsNullOrUndefined(pluginManager)) {
             throw new Error('The plugin manager is not set');
         }
+
         if (IsNullOrUndefined(eventManager)) {
             throw new Error('The event manager is not set');
+        }
+
+        if (IsNullOrUndefined(container)) {
+            throw new Error('The container is not set');
         }
 
         this.logger = logger;
         this.pluginManager = pluginManager;
         this.eventManager = eventManager;
+        this.container = container;
+
         this.running = false;
     }
 
