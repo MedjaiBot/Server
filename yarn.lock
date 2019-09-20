@@ -323,10 +323,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@medjaibot/framework@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@medjaibot/framework/-/framework-1.3.0.tgz#2889eaf4223fd3af65004f2207cedff2cb57f401"
-  integrity sha512-+uaHeSXE8ZqM8j0kNaRSxH95wtDpeSys9aEnwXXG8Q+hvsNYKjt64V8J1Io6tZtTSDnplFZJr4bdnFPknZrZ1A==
+"@medjaibot/framework@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@medjaibot/framework/-/framework-1.3.1.tgz#6dcde87a6382e9efd4903578b7263451b2455929"
+  integrity sha512-BtLE53rIJCqZnud3zDmgLPXpwaHZuCka8E+f6V2d4RLllWEjjxQwsFdR98rcLZTAB90L9vtH3+Blr4K85sl7ZQ==
   dependencies:
     inversify "^5.0.1"
     reflect-metadata "^0.1.13"
@@ -1788,9 +1788,9 @@ growly@^1.3.0:
   integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
 
 handlebars@^4.1.2:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.2.0.tgz#57ce8d2175b9bbb3d8b3cf3e4217b1aec8ddcb2e"
-  integrity sha512-Kb4xn5Qh1cxAKvQnzNWZ512DhABzyFNmsaJf3OAkWNa4NkaqWcNI8Tao8Tasi0/F4JD9oyG0YxuFyvyR57d+Gw==
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.2.1.tgz#dc69c0e61604224f0c23b38b5b6741db210b57da"
+  integrity sha512-bqPIlDk06UWbVEIFoYj+LVo42WhK96J+b25l7hbFDpxrOXMphFM3fNIm+cluwg4Pk2jiLjWU5nHQY7igGE75NQ==
   dependencies:
     neo-async "^2.6.0"
     optimist "^0.6.1"
@@ -4293,9 +4293,9 @@ ts-jest@^24.1.0:
     yargs-parser "10.x"
 
 ts-loader@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-6.1.0.tgz#999cb0a7644f9c7c6c0901802dce50ceb0a76e5b"
-  integrity sha512-7JedeOu2rsYHQDEr2fwmMozABwbQTZXEaEMZPSIWG7gpzRefOLJCqwdazcegHtyaxp04PeEgs/b0m08WMpnIzQ==
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-6.1.1.tgz#f30c68aa1ce59fa266f0bb70a36959ca68f40ddc"
+  integrity sha512-AoOek8ZWJlWwTRH5ttNmZPBRcASUJZc8wc8E/2PGOXef96H97J8KaLXaW/zUnvyFjvCoRBhTGh9ZIMKL1arcCA==
   dependencies:
     chalk "^2.3.0"
     enhanced-resolve "^4.0.0"
