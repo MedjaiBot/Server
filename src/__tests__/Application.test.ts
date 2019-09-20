@@ -48,8 +48,6 @@ describe('Application', () => {
     });
 
     it('should run without errors', () => {
-        expect(() => {
-            application.run();
-        }).not.toThrow();
+        expect(() => application.run).not.toThrow();
     });
 });
