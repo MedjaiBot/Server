@@ -22,7 +22,7 @@
     "@types/jest": "^24.0.19",
     "@types/node": "10",
     "all-contributors-cli": "^6.9.3",
-    "chokidar": "^3.2.2",
+    "chokidar": "^3.2.3",
     "clean-terminal-webpack-plugin": "^2.0.5",
     "commitizen": "^4.0.1",
     "cz-conventional-changelog": "^3.0.2",
